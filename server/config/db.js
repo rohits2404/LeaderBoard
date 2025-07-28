@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import initializeUsers from "../utils/initUsers";
+import initializeUsers from "../utils/initUsers.js";
 
 const connectDB = async () => {
     try {
